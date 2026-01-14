@@ -1,0 +1,36 @@
+.navbar {
+    transition: all 0.3s ease;
+    background-color: transparent;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navbar.scrolled {
+    background-color: rgba(17, 17, 17, 0.95);
+    /* Dark background on scroll */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-brand {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    /* Ensure logo is white */
+    color: #fff !important;
+}
+
+.social-icons a {
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #f4b41a !important;
+    /* Yellow on hover */
+}
+
+/* Menu Button hover */
+.btn-link:hover {
+    color: #f4b41a !important;
+}

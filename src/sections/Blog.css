@@ -1,0 +1,115 @@
+.blog-integration {
+    background-color: transparent;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.blog-yellow-bg {
+    background-color: #FFC107;
+    /* Bootstrap warning yellow or custom #fcc917 */
+    background-image: linear-gradient(to right, #FFC107, #FFCA28);
+    padding-top: 60px;
+    padding-bottom: 150px;
+    /* Space for overlap */
+    color: black;
+}
+
+.blog-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blog-title {
+    font-weight: 800;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    margin-right: 20px;
+}
+
+.blog-separator {
+    flex-grow: 1;
+    height: 2px;
+    width: 100px;
+    background-color: #000;
+    margin: 0 30px;
+}
+
+.blog-view-all {
+    font-weight: 700;
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.6rem;
+    margin-right: 5px;
+    text-transform: uppercase;
+}
+
+.blog-view-all:hover {
+    color: #333;
+}
+
+.blog-content-container {
+    margin-top: -100px;
+    /* Overlap the yellow background */
+    position: relative;
+    z-index: 10;
+}
+
+.blog-featured-image {
+    background-color: #111;
+    color: white;
+    padding: 60px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* Optional shadow */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.blog-overlay-text h3 {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 0.9;
+    letter-spacing: 2px;
+    margin: 0;
+    color: #fff;
+}
+
+.blog-overlay-text .sub-text {
+    font-size: 4rem;
+    font-weight: 300;
+    line-height: 0.9;
+    color: #ccc;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.blog-overlay-footer {
+    border-top: 1px solid #333;
+    padding-top: 20px;
+    margin-top: 30px;
+    font-family: serif;
+    font-style: italic;
+    color: #FFC107;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+
+    .blog-overlay-text h3,
+    .blog-overlay-text .sub-text {
+        font-size: 2.5rem;
+    }
+
+    .blog-yellow-bg {
+        padding-bottom: 100px;
+    }
+
+    .blog-content-container {
+        margin-top: -60px;
+    }
+}

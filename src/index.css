@@ -1,0 +1,61 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Vars */
+:root {
+  --primary-yellow: #f4b41a;
+  --dark-bg: #111111;
+  --text-white: #ffffff;
+  --font-heading: 'Oswald', sans-serif;
+  --font-body: 'Roboto', sans-serif;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--dark-bg);
+  color: var(--text-white);
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.text-yellow {
+  color: var(--primary-yellow) !important;
+}
+
+.bg-yellow {
+  background-color: var(--primary-yellow) !important;
+  color: #000;
+}
+
+.btn-custom {
+  background-color: var(--primary-yellow);
+  color: #000;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 0;
+  /* Sharp edges from design */
+  font-family: var(--font-heading);
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+.btn-custom:hover {
+  background-color: #d99f15;
+  color: #000;
+}

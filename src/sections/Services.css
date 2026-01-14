@@ -1,0 +1,41 @@
+.services-section {
+    background-color: #f4b41a;
+    min-height: 50vh;
+    color: #000;
+}
+
+.section-subtitle {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.subtitle-line {
+    height: 2px;
+    width: 100px;
+    background-color: #000;
+}
+
+.service-title {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    /* Large text */
+    text-transform: uppercase;
+    line-height: 1;
+    color: rgba(0, 0, 0, 0.4);
+    /* Faded look from screenshot */
+    transition: color 0.3s ease;
+}
+
+.service-title:hover {
+    color: #000;
+}
+
+/* Borders between columns on desktop */
+@media (min-width: 768px) {
+    .border-end-md {
+        border-right: 1px solid rgba(0, 0, 0, 0.1);
+    }
+}
