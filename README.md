@@ -1,4 +1,4 @@
-# Branded Website - Cyber Security UI
+# SecureWave
 
 A modern, responsive React-based website designed for a Cyber Security brand. This project showcases a professional UI with various sections including Services, Methodology, Case Studies, and a Blog, built for optimal performance and responsiveness. You can check project in video through this link: https://drive.google.com/file/d/1jfXcq6GeZ7y7tnm1V-mRjECqG1LESlzK/view?usp=sharing
 
